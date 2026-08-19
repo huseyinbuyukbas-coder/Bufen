@@ -78,12 +78,14 @@ export function Location() {
             viewport={{ once: true }}
             className="w-full h-[400px] lg:h-[500px] bg-white/5 rounded-3xl border border-white/10 overflow-hidden relative"
           >
-            {/* Google Maps iframe placeholder */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-white/30 bg-[#0F0F0F]">
-              <MapPin className="w-12 h-12 mb-4 opacity-50" />
-              <span className="font-black italic serif uppercase text-2xl tracking-tighter">Harita Yükleniyor...</span>
-              <span className="text-xs font-bold uppercase tracking-widest mt-2 opacity-50">Gerçek harita kodu buraya eklenecek</span>
-            </div>
+            <iframe 
+              title="BÜF'N Konum"
+              src="https://maps.google.com/maps?q=%C4%B0nmar%C4%B1+Sitesi,+Marmara+Mahallesi,+Avrasya+Cd.+No:2,+34524+Beylikd%C3%BCz%C3%BC+/+%C4%B0stanbul&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              className="w-full h-full border-0 opacity-80 hover:opacity-100 transition-opacity"
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </motion.div>
         </div>
       </div>

@@ -1,3 +1,8 @@
+import wetBurgerImg from "./assets/images/wet_burger_1787161416059.jpg";
+import bazlamaImg from "./assets/images/bazlama_toast_1787161429250.jpg";
+import heroBgImg from "./assets/images/hero_bg_1787161399375.jpg";
+import nightVibeImg from "./assets/images/night_vibe_1787161443539.jpg";
+
 export const INFO_CARDS = [
   {
     title: "5.0 ⭐",
@@ -118,8 +123,8 @@ export const FEATURES = [
 
 // Placeholder images for gallery
 export const GALLERY_IMAGES = [
-  "/src/assets/images/wet_burger_1787161416059.jpg",
-  "/src/assets/images/bazlama_toast_1787161429250.jpg",
-  "/src/assets/images/hero_bg_1787161399375.jpg",
-  "/src/assets/images/night_vibe_1787161443539.jpg",
+  wetBurgerImg,
+  bazlamaImg,
+  heroBgImg,
+  nightVibeImg,
 ];
