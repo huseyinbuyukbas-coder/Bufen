@@ -1,0 +1,6 @@
+{
+  "name": "BÜF'N | Yeni Nesil Büfe",
+  "description": "Beylikdüzü'nde modern sokak lezzetleri. Islak hamburger, bazlama tost ve daha fazlası.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
